@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kadtrack/static/css/main.fce866dd.chunk.css",
+    "main.js": "/kadtrack/static/js/main.8be334af.chunk.js",
+    "main.js.map": "/kadtrack/static/js/main.8be334af.chunk.js.map",
+    "runtime-main.js": "/kadtrack/static/js/runtime-main.7fd7219f.js",
+    "runtime-main.js.map": "/kadtrack/static/js/runtime-main.7fd7219f.js.map",
+    "static/css/2.89f067aa.chunk.css": "/kadtrack/static/css/2.89f067aa.chunk.css",
+    "static/js/2.7ae7440e.chunk.js": "/kadtrack/static/js/2.7ae7440e.chunk.js",
+    "static/js/2.7ae7440e.chunk.js.map": "/kadtrack/static/js/2.7ae7440e.chunk.js.map",
+    "index.html": "/kadtrack/index.html",
+    "precache-manifest.5d6164edfac67877597ba8f78a9dcad2.js": "/kadtrack/precache-manifest.5d6164edfac67877597ba8f78a9dcad2.js",
+    "service-worker.js": "/kadtrack/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/kadtrack/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.fce866dd.chunk.css.map": "/kadtrack/static/css/main.fce866dd.chunk.css.map",
+    "static/js/2.7ae7440e.chunk.js.LICENSE.txt": "/kadtrack/static/js/2.7ae7440e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fd7219f.js",
+    "static/css/2.89f067aa.chunk.css",
+    "static/js/2.7ae7440e.chunk.js",
+    "static/css/main.fce866dd.chunk.css",
+    "static/js/main.8be334af.chunk.js"
+  ]
+}
