@@ -74,7 +74,7 @@ render (){
     <br/>
     {new Date(this.state.time).getHours()}:{new Date(this.state.time).getMinutes()}:{new Date(this.state.time).getSeconds()}
  <br/>
- {this.state.day}/{this.state.month}/2020
+ {this.state.day}/{this.state.month+1}/2020
  </h1>
 
  </div>
