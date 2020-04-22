@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/kadtrack/static/css/main.fce866dd.chunk.css",
-    "main.js": "/kadtrack/static/js/main.5c6d90ee.chunk.js",
-    "main.js.map": "/kadtrack/static/js/main.5c6d90ee.chunk.js.map",
+    "main.js": "/kadtrack/static/js/main.bc2590b2.chunk.js",
+    "main.js.map": "/kadtrack/static/js/main.bc2590b2.chunk.js.map",
     "runtime-main.js": "/kadtrack/static/js/runtime-main.7fd7219f.js",
     "runtime-main.js.map": "/kadtrack/static/js/runtime-main.7fd7219f.js.map",
     "static/css/2.89f067aa.chunk.css": "/kadtrack/static/css/2.89f067aa.chunk.css",
-    "static/js/2.7ae7440e.chunk.js": "/kadtrack/static/js/2.7ae7440e.chunk.js",
-    "static/js/2.7ae7440e.chunk.js.map": "/kadtrack/static/js/2.7ae7440e.chunk.js.map",
+    "static/js/2.f3fb2214.chunk.js": "/kadtrack/static/js/2.f3fb2214.chunk.js",
+    "static/js/2.f3fb2214.chunk.js.map": "/kadtrack/static/js/2.f3fb2214.chunk.js.map",
     "index.html": "/kadtrack/index.html",
-    "precache-manifest.57e4828652058ec9d631d4f2b52356d3.js": "/kadtrack/precache-manifest.57e4828652058ec9d631d4f2b52356d3.js",
+    "precache-manifest.b7fa333d7123fd4ca38d77322a9f72e7.js": "/kadtrack/precache-manifest.b7fa333d7123fd4ca38d77322a9f72e7.js",
     "service-worker.js": "/kadtrack/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/kadtrack/static/css/2.89f067aa.chunk.css.map",
     "static/css/main.fce866dd.chunk.css.map": "/kadtrack/static/css/main.fce866dd.chunk.css.map",
-    "static/js/2.7ae7440e.chunk.js.LICENSE.txt": "/kadtrack/static/js/2.7ae7440e.chunk.js.LICENSE.txt"
+    "static/js/2.f3fb2214.chunk.js.LICENSE.txt": "/kadtrack/static/js/2.f3fb2214.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7fd7219f.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.7ae7440e.chunk.js",
+    "static/js/2.f3fb2214.chunk.js",
     "static/css/main.fce866dd.chunk.css",
-    "static/js/main.5c6d90ee.chunk.js"
+    "static/js/main.bc2590b2.chunk.js"
   ]
 }
