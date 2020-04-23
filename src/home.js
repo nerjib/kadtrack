@@ -82,7 +82,7 @@ render (){
 </div>
 <div>
     <h1>
-    KADTRACK (KADUNA TRACKING) SYSTEM
+    KADUNA TRACKING SYSTEM
     <br/>
     {new Date(this.state.time).getHours()}:{new Date(this.state.time).getMinutes()}:{new Date(this.state.time).getSeconds()}
  <br/>
