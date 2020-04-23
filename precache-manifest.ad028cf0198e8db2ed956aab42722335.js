@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10bb7c82e91a7baf44c8430bdafa0c0d",
+    "revision": "207f1ad42bf6a123a7833fce4fcb0128",
     "url": "/kadtrack/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadtrack/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "9559e7400a630e60b58c",
+    "revision": "ef0d2c0f06ec0d6b6f1f",
     "url": "/kadtrack/static/css/main.fce866dd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadtrack/static/js/2.f3fb2214.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9559e7400a630e60b58c",
-    "url": "/kadtrack/static/js/main.bc2590b2.chunk.js"
+    "revision": "ef0d2c0f06ec0d6b6f1f",
+    "url": "/kadtrack/static/js/main.2f522294.chunk.js"
   },
   {
     "revision": "3a8b9c20836556a0d785",

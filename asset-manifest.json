@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kadtrack/static/css/main.fce866dd.chunk.css",
-    "main.js": "/kadtrack/static/js/main.bc2590b2.chunk.js",
-    "main.js.map": "/kadtrack/static/js/main.bc2590b2.chunk.js.map",
+    "main.js": "/kadtrack/static/js/main.2f522294.chunk.js",
+    "main.js.map": "/kadtrack/static/js/main.2f522294.chunk.js.map",
     "runtime-main.js": "/kadtrack/static/js/runtime-main.7fd7219f.js",
     "runtime-main.js.map": "/kadtrack/static/js/runtime-main.7fd7219f.js.map",
     "static/css/2.89f067aa.chunk.css": "/kadtrack/static/css/2.89f067aa.chunk.css",
     "static/js/2.f3fb2214.chunk.js": "/kadtrack/static/js/2.f3fb2214.chunk.js",
     "static/js/2.f3fb2214.chunk.js.map": "/kadtrack/static/js/2.f3fb2214.chunk.js.map",
     "index.html": "/kadtrack/index.html",
-    "precache-manifest.b7fa333d7123fd4ca38d77322a9f72e7.js": "/kadtrack/precache-manifest.b7fa333d7123fd4ca38d77322a9f72e7.js",
+    "precache-manifest.ad028cf0198e8db2ed956aab42722335.js": "/kadtrack/precache-manifest.ad028cf0198e8db2ed956aab42722335.js",
     "service-worker.js": "/kadtrack/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/kadtrack/static/css/2.89f067aa.chunk.css.map",
     "static/css/main.fce866dd.chunk.css.map": "/kadtrack/static/css/main.fce866dd.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.89f067aa.chunk.css",
     "static/js/2.f3fb2214.chunk.js",
     "static/css/main.fce866dd.chunk.css",
-    "static/js/main.bc2590b2.chunk.js"
+    "static/js/main.2f522294.chunk.js"
   ]
 }
