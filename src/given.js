@@ -4,7 +4,7 @@ import Calender from './calender'
 
 // let entry=0;
 
-export default class Home extends React.Component{
+export default class Given extends React.Component{
 constructor(props) {
     super(props)
     this.state = {
@@ -92,6 +92,23 @@ return e
 return ''
 }
 
+checkDay=(a,b,c,d,e)=>{
+    if(a){
+    //    day1 = day1 +1
+        return 'Day 1'
+    }
+    else if(b){
+        return 'Day 2'
+    } else if(c){
+        return 'Day 3'
+    }
+    else if(d){
+        return 'Day 4'
+    }
+    else if(e){
+        return 'Day 5'
+    }
+}
 render (){
     let row =[]
 
@@ -115,8 +132,47 @@ render (){
     <td>{this.state.receivedData[e].phone_no}</td>
     <td>{this.state.receivedData[e].address}</td>
     <td>{this.state.receivedData[e].coupon}</td>
+    <td>{this.state.receivedData[e].time1}</td>
+    <td>{this.state.receivedData[e].time2}</td>
+    <td>{this.state.receivedData[e].time3}</td>
+    <td>{this.state.receivedData[e].time4}</td>
+    <td>{this.state.receivedData[e].time5}</td>
+
     </tr>)
  })
+let row2=[];
+let k=0
+let aa=0
+let bb=0
+let cc=0
+let dd=0
+let kk2=0
+//this.state.receivedData[e].package_type!='A' ||
+ Object.keys(this.state.receivedData).map((e,i)=>{
+//    if(this.state.receivedData[e].package_type!='' & this.state.receivedData[e].gps!=null  ){
+        if(this.state.receivedData[e].package_type=='A' || this.state.receivedData[e].package_type=='B' || this.state.receivedData[e].package_type=='C' || this.state.receivedData[e].package_type=='D'){
+        k=k+1
+if(this.state.receivedData[e].package_type=='A'){
+    aa=aa+1
+} else if (this.state.receivedData[e].package_type=='B'){
+    bb=bb+1
+}
+else if(this.state.receivedData[e].package_type=='C'){
+    cc=cc+1
+}
+else if(this.state.receivedData[e].package_type=='D'){
+    dd=dd+1
+}
+//if(this.checkDay(this.checkDay(this.state.receivedData[e].time1,this.state.receivedData[e].time2,this.state.receivedData[e].time3,this.state.receivedData[e].time4,this.state.receivedData[e].time5)=='Day 5')){
+  //  kk2=kk2+1
+   row2.push(<tr><td>{k}</td><td>{this.state.receivedData[e].first_name}</td><td>{this.state.receivedData[e].gps}</td><td>{this.state.receivedData[e].package_type}</td>    <td>{this.state.receivedData[e].coupon}</td>
+           <td>{this.checkDay(this.state.receivedData[e].time1,this.state.receivedData[e].time2,this.state.receivedData[e].time3,this.state.receivedData[e].time4,this.state.receivedData[e].time5)}</td>
+    
+        </tr>)
+
+    //}
+    } 
+})
     return (
         <div>
          <div className='row col-md-12' style={{background:'#00d2d2'}}>
@@ -154,15 +210,21 @@ render (){
     }
  </div>
 {pageNumbers}
+Package A: {aa} Package B: {bb} Package c: {cc} package D: {dd}<br/>
+Day1 :
+
+
             <table className='table'>
                 <thead>
                     <tr>
                         <th>S/N</th><th>Name of Head of Household</th>
-                        <th>Phone Number</th><th>Community</th><th>Coupon Id</th>
+                        <th>GPS</th><th>Package Type</th><th>Coupon Id</th>
+                        <th>Day</th>                   
+
                     </tr>
                 </thead>
                 <tbody>
-                    {row}
+                    {row2}
                 </tbody>
             </table>
         </div>

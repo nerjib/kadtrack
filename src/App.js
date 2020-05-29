@@ -7,6 +7,8 @@ import Passengers from './passengers'
 //import covid19ImpactEstimator from '../../src/estimator'
 import PassengerDetails from './passengerdetails'
 import Update from './edit'
+import Verified from './verified'
+import Given from './given'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <Route path="/passengers" exact component={(Passengers)} />
         <Route path="/passenger/:id" exact component={(PassengerDetails)} />
         <Route path="/update" exact component={(Update)} />
+        <Route path="/verified1" exact component={(Verified)} />
+        <Route path="/given" exact component={(Given)} />
 
       </Switch>
     </div>
